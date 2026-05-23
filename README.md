@@ -23,6 +23,10 @@
 
 ---
 
+菜单主页：
+<img width="2036" height="994" alt="image" src="https://github.com/user-attachments/assets/4b431707-03ce-4b04-aa20-5466d62bdaa9" />
+
+
 ## 安装
 
 ### 环境要求
@@ -137,6 +141,10 @@ python mfs_cli.py remove-source "4K源"
 ---
 
 ## 终端封面显示（可选）
+
+预览：
+<img width="1678" height="1558" alt="image" src="https://github.com/user-attachments/assets/3badd664-b4e3-49ed-afa5-542f5f2f79bb" />
+
 
 若终端支持 Sixel（Windows Terminal 1.22+ / WezTerm / iTerm2），可启用高清封面内嵌显示：
 
