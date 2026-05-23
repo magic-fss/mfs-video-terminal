@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mfs-video-terminal"
+version = "1.1.3"
+description = "命令行影视搜索与播放客户端，基于苹果CMS V10 API规范"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Magic", email = "3427957194@qq.com"}
+]
+keywords = ["cli", "video", "cms", "m3u8", "terminal", "tui", "apple-cms"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Utilities",
+]
+
+dependencies = [
+    "click>=8.0.0",
+    "httpx>=0.24.0",
+    "loguru>=0.7.0",
+    "pydantic>=2.0.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+mfs = "mfs_cli:cli"
+hn4k = "mfs_cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/magic-fss/mfs-video-terminal"
+Repository = "https://github.com/magic-fss/mfs-video-terminal.git"
+Issues = "https://github.com/magic-fss/mfs-video-terminal/issues"

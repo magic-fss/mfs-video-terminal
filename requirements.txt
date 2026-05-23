@@ -1,0 +1,8 @@
+# MFS 影视终端 — Python 运行时依赖
+# 安装方式: pip install -r requirements.txt
+
+click>=8.0.0
+httpx>=0.24.0
+loguru>=0.7.0
+pydantic>=2.0.0
+rich>=13.0.0
